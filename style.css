@@ -53,3 +53,82 @@ ul a {
     gap: 20px;
     list-style: none;
 }
+
+
+.header_nav li{
+    border-bottom: 2px white solid ;
+    padding-bottom: 5px;
+}
+
+.header_nav li:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px #658161 solid ;
+}
+
+select {
+    color: #1a1a1a;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    width: 65px;
+    background: transparent;
+}
+
+option {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.about-us-container {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 78vh;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/6322200/images/side-view-people-living-healthy-life7-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us-text {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 500px;
+    background-color: white;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+
+.about-us-text h1 {
+    font-size: 60px;
+    color: #111111;
+}
+
+.about-us-text p {
+    font-size: 24px;
+    color: #111111;
+    width: 481px;
+    margin-top: 40px;
+    
+}
+
+.about-us-text button {
+    margin-top: 40px;
+    padding: 19px 36px;
+    background: none;
+    border: 2px solid #658161;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #658161;
+    font-weight: bold;
+}
+
+.about-us-text button:hover {
+    color: white;
+    background-color: #658161;
+    cursor: pointer;
+}
