@@ -132,3 +132,123 @@ option {
     background-color: #658161;
     cursor: pointer;
 }
+.section_meet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 694.71px;
+}
+
+.meet_img  img {
+    width: 380px;
+    height: 575px;
+    border-radius:10px ;
+    animation: meetimgAnim 1.5s ease-out forwards; 
+}
+
+@keyframes meetimgAnim {
+  0% {
+    transform: translateX(-100%);    
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+.meet{
+    padding: 30px;
+    
+}
+.meet1{
+     animation: meetAnim 1.5s ease-out forwards; 
+}
+@keyframes meetAnim {
+  0% {
+    transform: translateX(100%);    
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+
+.meet1 h2 {
+    font-size: 35px;
+    width: 400px;
+    padding-top: 40px;
+    
+}
+
+.meet1 p{
+    font-size: 25px;
+    width: 700px;
+    padding-top: 50px;
+}
+.meet2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding-top: 60px;
+  }
+
+.list {
+    padding-top: 50px;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: listAnim 1.2s ease-out 1.5s forwards;
+}
+
+@keyframes listAnim {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.list ul li {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.meet_box {
+    width: 361px;
+    height: 300px;
+    background-color: #658161;
+    color: #D4E2D2;
+    border-radius:10px ;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;
+    text-align: center; 
+
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    opacity: 0;
+    transform: rotateX(-90deg);
+    animation: meetboxAnim 1.2s ease-out 1.5s forwards;
+}
+
+@keyframes meetboxAnim {
+    0% {
+        opacity: 0;
+        transform: rotateX(-90deg);
+    }
+    60% {
+        opacity: 1;
+        transform: rotateX(50deg); /* azca artıq dönür */
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg); /* düz vəziyyət */
+    }
+}
+
+.meet_box img{
+   width: 70px;
+   padding-bottom: 5px;
+    
+}
+.meet_box p{
+    width: 350px;
+    padding: 10px;
+    font-size: 25px;
+}
