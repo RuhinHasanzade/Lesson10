@@ -252,3 +252,50 @@ option {
     padding: 10px;
     font-size: 25px;
 }
+
+.container_grow{
+ height: 628px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 628px;
+ opacity: 0;
+ animation: growAnim 1.5s ease-out forwards;
+}
+@keyframes growAnim{
+    to{
+        opacity: 1;
+    }
+}
+.grow_title h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    opacity: 0;
+    animation: growAnim 1.5s ease-out forwards;
+}
+
+.grow_all_box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+}
+.grow_box {
+    width: 360px;
+    height: 220px;
+}
+.grow_box p{
+    font-size: 20px;
+    margin-left: 55px;
+    }
+.grow_box_title {
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.grow_box_title img{
+    width: 40px;
+}
+.grow_box_title h3{
+    font-size: 25px;
+    }
