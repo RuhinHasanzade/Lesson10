@@ -1,0 +1,21 @@
+@media (max-width:1240px) {
+    .flex_nutritions {
+    gap: 50px;
+}
+}
+
+@media (max-width:1160px) {
+    
+.footer_container {
+    gap: 50px;
+}
+.meet_img  img {
+  display: none;
+}
+}
+
+@media (max-width:1080px) {
+.logo_section {
+    max-width: 800px;
+}
+}

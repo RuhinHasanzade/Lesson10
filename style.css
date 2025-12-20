@@ -249,16 +249,12 @@ option {
 }
 .meet_box p{
     width: 350px;
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 25px;
 }
 
 .container_grow{
- height: 628px;
- display: flex;
- justify-content: center;
- align-items: center;
- height: 628px;
+
  opacity: 0;
  animation: growAnim 1.5s ease-out forwards;
 }
@@ -276,12 +272,16 @@ option {
 }
 
 .grow_all_box{
+       max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    /* grid-template-columns: repeat(3, 1fr);  */
+    grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
     gap: 30px;
 }
 .grow_box {
-    width: 360px;
+    width: 300px;
     height: 220px;
 }
 .grow_box p{
@@ -323,7 +323,7 @@ option {
 
 .nutrition_card{
     padding-top: 20px;
-    width: 270px;
+    width: 230px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -525,3 +525,4 @@ textarea::placeholder {
 .button_form:hover {
     background: #D4E2D2;
 }
+
