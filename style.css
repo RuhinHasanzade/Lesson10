@@ -439,3 +439,89 @@ footer {
 
 /* salam men coflict yaradacamm  */
 /* SDADASDASDASDA */
+.container_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:547px ;
+    margin: 20px;
+ 
+}
+.form_card {
+    width: 420px;
+    background-color: #D4E2D2;
+    border-radius: 30px;
+}
+.form_card_img  img {
+    border-radius: 50%;
+    width:169px ;
+    height: 169px;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+.form_card_text {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.form_card_text h2 {
+    font-size: 48px;
+    margin-top: 20px;
+}
+.form_card_text p{
+    font-size: 22px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.form_row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+
+}
+.form_field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    }
+
+form {
+    padding: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 2px solid #9bb59a;
+    padding: 8px 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #9a9a9a;
+}
+
+.button_form {
+    width: 100%;
+    background: #658161;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.button_form:hover {
+    background: #D4E2D2;
+}
